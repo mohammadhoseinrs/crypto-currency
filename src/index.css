@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active-class{
+  @apply flex items-center py-2 px-2 bg-red-500 rounded-r-lg
+}
+.notactive-class{
+  @apply flex items-center py-2 px-2
+}
